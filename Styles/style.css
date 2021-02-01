@@ -1,0 +1,221 @@
+/* || General setup */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  background-color: #a9a9a9;
+}
+
+body {
+  width: 100%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+/* || typography */
+
+h1, h2, h3 {
+  font-family: 'Cinzel Decorative', cursive;
+  color: #2a2a2a;
+}
+
+p, input, li {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #2a2a2a;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 2px 2px 10px black;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+p, li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+/* || header layout */
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 15px;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+article, aside, footer, section {
+  background-color: #ffffff;
+  padding: 15px;
+}
+
+.nav_header {
+  background-color: #ffffff00;
+  display: flex;
+  height: 50px;
+  flex: 50%;
+  padding: 15px;
+}
+
+.nav_header_logo {
+  display: inline;
+  height: 60px;
+  /* position: absolute;
+  top: 2.5%;
+  left: 25%; */
+  /* padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 100px; */
+
+}
+
+/* .box {
+  box-sizing: border-box;
+  display: inline;
+  flex: 1;
+  width: 100px;
+  height: 50px;
+  padding: 10px 50px 10px 50px;
+  border: 3px solid black;
+  border-top-right-radius: 10px;
+
+} */
+
+.active:active {
+  background-color: yellow;
+}
+
+a:hover {
+  background-color: rgb(226, 226, 226);
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+}
+
+.home {
+  display: inline;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid#ffffff;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 10px 50px 10px 50px;
+
+}
+
+.about {
+  display: inline;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 10px 33.43px 10px 33.42px;
+
+}
+
+.seasons {
+  display: inline;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 10px 33.43px 10px 33.42px;
+
+
+}
+
+.join {
+  display: inline;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 10px 50px 10px 50px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+/* nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+} */
+
+nav a, nav span {
+  display: inline-block;
+  font-size: 2rem;
+  height: 3rem;
+  line-height: 1.7;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+}
+
+/* Background Images */
+
+.background_box {
+  box-sizing: border-box;
+  width: 100%;
+  height: 600px;
+  background-color: rgba(255, 255, 255, 0);
+  background-image: url('../Media/Helix\ Youtube\ Banner-2.png');
+  background-position: center;
+}
+
+.background_box_join {
+  box-sizing: border-box;
+  width: 100%;
+  height: 600px;
+  background-color: rgba(255, 255, 255, 0);
+  background-image: url('../Media/event3.png');
+  background-position: center;
+  background-size: cover;
+}
+
+
+/* || main layout */
+
+main {
+  display: flex;
+}
+
+article {
+  flex: 4;
+}
+
+footer p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.footer_section {
+  text-align: center;
+}
